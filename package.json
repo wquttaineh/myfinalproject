@@ -1,8 +1,8 @@
 {
-  "name": "hummousking",
+  "name": "myfinalproject",
   "version": "1.0.0",
-  "description": "buliding my own FoodTruck site.",
-  "main": "index.js",
+  "description": "my project",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/wquttaineh/myfinalproject.git"
   },
-  "author": "Walid",
+  "keywords": [
+    "hummousking"
+  ],
+  "author": "walid",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wquttaineh/myfinalproject/issues"
