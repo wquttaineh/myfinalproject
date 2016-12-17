@@ -1,0 +1,22 @@
+{
+  "name": "myfinalproject",
+  "version": "1.0.0",
+  "description": "my project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wquttaineh/myfinalproject.git"
+  },
+  "keywords": [
+    "hummousking"
+  ],
+  "author": "walid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wquttaineh/myfinalproject/issues"
+  },
+  "homepage": "https://github.com/wquttaineh/myfinalproject#readme"
+}
