@@ -16,15 +16,19 @@ module.exports = function (app) {
 	// ---------------------------------------------------------------------------
 
 	app.get('/home', function (request, response) {
-		response.sendFile(path.join(__dirname + '/../public/home.html'));
+		response.sendFile(path.join(__dirname + '/../public/portfolio.html'));
 	});
 
-	app.get('/survey', function (request, response) {
-		response.sendFile(path.join(__dirname + '/../public/survey.html'));
+	app.get('/menu', function (request, response) {
+		response.sendFile(path.join(__dirname + '/../public/index.html'));
+	});
+
+	app.get('/aboutus', function (request, response) {
+		response.sendFile(path.join(__dirname + '/../public/work.html'));
 	});
 
 	// If no matching route is found default to home
 	app.use(function (request, response) {
-		response.sendFile(path.join(__dirname + '/../public/home.html'));
+		response.sendFile(path.join(__dirname + '/../public/portfolio.html'));
 	});
 };

@@ -26,7 +26,7 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 require('./app/routing/api-routes.js')(app); 
 require('./app/routing/html-routes.js')(app);
 
-app.get('/api/:friends?', function (request, response) {
+// app.get('/api/:friends?', function (request, response) {
 	// var chosen = request.params.friends;
 
 	// if (chosen) {
@@ -43,10 +43,10 @@ app.get('/api/:friends?', function (request, response) {
 	// } else {
 	// 	response.json(friends);
 	// }
-});
+// });
 
 // // Create New friends - takes in JSON input
-app.post('/api/friends', function (request, response) {
+// app.post('/api/friends', function (request, response) {
 	// var newFriends = request.body;
 	// newFriends.name = newFriends.name.replace(/\s+/g, '').toLowerCase();
 
@@ -55,7 +55,7 @@ app.post('/api/friends', function (request, response) {
 	// friends.push(newFriends);
 
 	// response.json(newFriends);
-});
+// });
 
 app.listen(PORT, function() {
 	console.log("App listening on PORT: " + PORT);
