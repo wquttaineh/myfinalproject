@@ -1,5 +1,5 @@
 
-var foodtruckData = require('../data/foodtruck.js');
+var foodtruckData = require('./data/foodtruck.js');
 
 
 module.exports = function (app) {
