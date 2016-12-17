@@ -1,19 +1,19 @@
 
-var friendsData = require('../data/friends.js');
+var foodtruckData = require('../data/foodtruck.js');
 
 
 module.exports = function (app) {
 	
 
 	app.get('/home', function (request, response) {
-		response.json(friendsData);
+		response.json(foodtruckData);
 	});
 
 	
 
 	app.post('/home', function (request, response) {
 		
-			friendsData.push(request.body);
+			foodtruckData.push(request.body);
 			
 	});
 
