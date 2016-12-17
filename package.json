@@ -1,22 +1,21 @@
 {
   "name": "myfinalproject",
   "version": "1.0.0",
-  "description": "my project",
+  "description": "-Node \r -Express \r -MySQL \r -Handlebars \r -Jquery",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wquttaineh/myfinalproject.git"
-  },
-  "keywords": [
-    "hummousking"
-  ],
-  "author": "walid",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wquttaineh/myfinalproject/issues"
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "method-override": "^2.3.5",
+    "mysql": "^2.10.2"
   },
-  "homepage": "https://github.com/wquttaineh/myfinalproject#readme"
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
+  }
 }
