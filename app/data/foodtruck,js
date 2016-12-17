@@ -1,7 +1,0 @@
-
-var friendsArray = [{
-  "name":"walid",
- 
-}];
-
-module.exports = friendsArray;
