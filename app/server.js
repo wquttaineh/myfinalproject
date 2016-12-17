@@ -23,8 +23,8 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs. 
 // ================================================================================
 
-require('./app/routing/api-routes.js')(app); 
-require('./app/routing/html-routes.js')(app);
+require('./routing/api-routes.js')(app); 
+require('./routing/html-routes.js')(app);
 
 // app.get('/api/:friends?', function (request, response) {
 	// var chosen = request.params.friends;
